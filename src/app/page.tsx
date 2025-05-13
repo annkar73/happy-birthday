@@ -1,9 +1,19 @@
+// app/page.tsx
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import BirthdayCard from "../components/BirthdayCard";
+import Footer from "../components/Footer";
 
-export default function Home() {
+const Page = () => {
   return (
-    <>
-    content will be here
-    
-    </>
+    <div className="min-h-screen">
+      <Header />
+      <Hero imageSrc="/images/confetti.png" altText="Confetti image">
+        <BirthdayCard />
+      </Hero>
+      <Footer />
+    </div>
   );
-}
+};
+
+export default Page;
