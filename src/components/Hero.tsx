@@ -20,8 +20,8 @@ const Hero = ({ imageSrc, altText, children }: HeroProps) => {
       />
       <div className="absolute inset-0 bg-black/40" />
       
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center gap-6">
-        <h1 className="text-amber-400 text-5xl md:text-6xl font-bold drop-shadow-md">Grattis på födelsedagen!</h1>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center gap-4">
+        <h1 className="text-amber-400 text-5xl md:text-6xl marck font-bold drop-shadow-md">Grattis på födelsedagen!</h1>
         {children}
       </div>
     </section>
