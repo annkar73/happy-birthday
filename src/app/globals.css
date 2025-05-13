@@ -12,7 +12,6 @@
 
 }
 
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -128,7 +127,8 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
+  html, body {
+    @apply h-full overflow-y-auto;
     @apply bg-background text-foreground;
   }
 }

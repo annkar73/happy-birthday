@@ -10,7 +10,7 @@ interface HeroProps {
 
 const Hero = ({ imageSrc, altText, children }: HeroProps) => {
   return (
-    <section className="relative w-full overflow-hidden" style={{ height: "calc(100vh - 64px - 48px" }}>
+    <section className="relative w-full overflow-hidden">
       <Image
         src={imageSrc}
         alt={altText}
