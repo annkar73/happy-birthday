@@ -11,6 +11,9 @@ const lora = Lora({
 export const metadata = {
   title: "Grattis på födelsedagen!",
   description: "Födelsedagshälsning med konfetti",
+  icons: {
+    icon: '/images/cake.png',
+  }
 };
 
 export default function RootLayout({
